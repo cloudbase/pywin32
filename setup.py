@@ -2089,6 +2089,7 @@ pythonwin_extensions = [
         depends=["win32/src/stddde.h", "pythonwin/ddemodule.h"],
         optional_headers=['afxres.h']),
     ]
+pythonwin_extensions = []
 # win32ui is large, so we reserve more bytes than normal
 dll_base_address += 0x100000
 
